@@ -14,3 +14,21 @@
 .avatar img {
   margin-top: -1rem;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.form .wrapper {
+  width: 736px;
+  display: flex;
+  justify-content: center;
+  margin-top: -1.35rem;
+}
+
+.form button {
+  margin-left: 0.5rem;
+}
