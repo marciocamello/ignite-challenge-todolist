@@ -1,0 +1,16 @@
+.header {
+  height: 12.5rem;
+  width: 100%;
+  background: var(--gray-700);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.avatar img {
+  margin-top: -1rem;
+}
