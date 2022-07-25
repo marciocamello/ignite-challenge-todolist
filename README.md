@@ -1,4 +1,4 @@
-# Ignite Feed
+# Ignite Challenge TodoList
 
 ![alt text](https://github.com/marciocamello/ignite-challenge-todolist/blob/main/capa.png)
 
