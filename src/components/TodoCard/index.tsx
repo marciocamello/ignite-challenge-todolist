@@ -19,7 +19,7 @@ export function TodoCard({ todo, onToggleTodo, onRemoveTodo }: Props) {
             />
             <p className={todo.status === 'done' ? styles.checked : ''}>{todo.text}</p>
             <button onClick={() => onRemoveTodo(todo.id)}>
-                <Trash />
+                <Trash size={18} />
             </button>
         </main>
     )

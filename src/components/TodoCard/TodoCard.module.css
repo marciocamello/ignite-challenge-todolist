@@ -1,6 +1,6 @@
 .card {
   display: grid;
-  grid-template-columns: 70px 1fr 70px;
+  grid-template-columns: 60px 1fr 60px;
   align-items: flex-start;
   min-height: 4.5rem;
   padding: 1rem 0;
@@ -16,7 +16,7 @@
 
 .card > label {
   margin-top: 0.15rem;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .card > p {
