@@ -7,7 +7,6 @@
   --gray-500: #262626;
   --gray-600: #1a1a1a;
   --gray-700: #0d0d0d;
-  --gray-800: #191919;
 
   --purple-300: #8284fa;
   --purple-500: #5e60ce;
@@ -30,7 +29,7 @@
 }
 
 body {
-  background: var(--gray-800);
+  background: var(--gray-600);
   color: var(--gray-300);
   -webkit-font-smoothing: antialiased;
 }

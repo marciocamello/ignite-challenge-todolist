@@ -1,0 +1,81 @@
+.todoListWrapper {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoListWrapper section:first-child {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.todoListWrapper section:first-child div p {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.todoListWrapper section:first-child div p span {
+  border-radius: 50%;
+  background: var(--gray-500);
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  color: var(--white);
+  font-size: 0.75rem;
+}
+
+.todoListWrapper section:first-child div:first-child p {
+  color: var(--blue-500);
+}
+
+.todoListWrapper section:first-child div:last-child p {
+  color: var(--purple-500);
+}
+
+@media (max-width: 768px) {
+  .todoListWrapper {
+    margin-top: 2rem;
+  }
+
+  .todoListWrapper section:first-child {
+    flex-direction: column;
+    padding: 0 2rem;
+    align-items: center;
+  }
+
+  .todoListWrapper section:first-child div {
+    margin-bottom: 1rem;
+  }
+}
+
+.todoListWrapper section:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  padding: 4rem 1.5rem;
+}
+
+.todoListWrapper section:last-child svg {
+  margin-bottom: 0.5rem;
+}
+
+.todoListWrapper section:last-child strong {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.todoListWrapper section:last-child p {
+  font-size: 1rem;
+}
+
+.todoList {
+  margin-top: 1.5rem;
+  width: 100%;
+}

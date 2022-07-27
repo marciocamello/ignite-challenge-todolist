@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.form .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -1.35rem;
+}
+
+.form button {
+  margin-left: 0.5rem;
+}
+
+.form button:disabled {
+  cursor: not-allowed;
+  background: var(--gray-300);
+}
